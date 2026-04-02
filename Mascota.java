@@ -1,4 +1,4 @@
-class Mascota {
+public class Mascota {
     String nombre;
     String especie;
     int edad;
@@ -8,7 +8,6 @@ class Mascota {
         this.especie = especie;
         this.edad = edad;
     }
-
 
     public Mascota(String nombre, String especie) {
         this.nombre = nombre;
@@ -31,12 +30,8 @@ class Mascota {
     public void alimentar(String tipoComida) {
         System.out.println(nombre + " está comiendo un premio de " + tipoComida + ".");
     }
-}
-
-public class MyClass {
     public static void main(String args[]) {
         Mascota perro = new Mascota("Rocco", "Canino", 4);
-        
         Mascota gato = new Mascota("Luna", "Felino");
 
         System.out.println("- REGISTRO VETERINARIO -");
